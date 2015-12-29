@@ -17,6 +17,8 @@ var Schema       = mongoose.Schema;
 */
 
 var ContentSchema   = new Schema({
+        "channelId" : Number,
+	    "description" : String,
         "contentId" : Number,
 	    "title" : String,
         "startDateTime" : Number,
